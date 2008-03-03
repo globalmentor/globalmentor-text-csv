@@ -28,7 +28,7 @@ import com.globalmentor.text.CharacterEncoding;
 @author Garret Wilson
 @see <a href="http://www.ietf.org/rfc/rfc4180.txt">RFC 4180: Common Format and MIME Type for Comma-Separated Values (CSV) Files</a>
 */
-public class CSVConstants
+public class CSV
 {
 
 	/**CSV subtype.*/
