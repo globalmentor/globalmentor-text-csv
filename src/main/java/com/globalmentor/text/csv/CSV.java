@@ -35,7 +35,7 @@ public class CSV {
 	public static final String CSV_SUBTYPE = "csv";
 
 	/** The content type for CSV: <code>text/csv</code>. */
-	public static final ContentType CSV_CONTENT_TYPE = ContentType.create(ContentType.TEXT_PRIMARY_TYPE, CSV_SUBTYPE);
+	public static final ContentType CSV_CONTENT_TYPE = ContentType.of(ContentType.TEXT_PRIMARY_TYPE, CSV_SUBTYPE);
 
 	/** The name extension for Comma Separated Value (CSV) files. */
 	public static final String CSV_NAME_EXTENSION = "csv";
