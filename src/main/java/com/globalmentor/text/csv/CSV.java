@@ -47,7 +47,7 @@ public class CSV {
 	public static final String RECORD_DELIMITER_STRING = "" + CARRIAGE_RETURN_CHAR + LINE_FEED_CHAR;
 
 	/** Characters that require a field to be quoted. */
-	public static final Characters RESTRICTED_CHARACTERS = new Characters(RECORD_DELIMITER_STRING.toCharArray()).add(FIELD_DELIMITER_CHAR, QUOTATION_MARK_CHAR);
+	public static final Characters RESTRICTED_CHARACTERS = Characters.of(RECORD_DELIMITER_STRING.toCharArray()).add(FIELD_DELIMITER_CHAR, QUOTATION_MARK_CHAR);
 
 	/** A quote character that has been escaped. */
 	public static final String ESCAPED_QUOTATION_MARK_STRING = "" + QUOTATION_MARK_CHAR + QUOTATION_MARK_CHAR;
