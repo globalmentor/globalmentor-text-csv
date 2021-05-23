@@ -38,7 +38,7 @@ public class CSV {
 	public static final ContentType CSV_MEDIA_TYPE = ContentType.of(ContentType.TEXT_PRIMARY_TYPE, CSV_SUBTYPE);
 
 	/** The name extension for Comma Separated Value (CSV) files. */
-	public static final String CSV_NAME_EXTENSION = "csv";
+	public static final String CSV_FILENAME_EXTENSION = "csv";
 
 	/** The character that delimits CSV fields. */
 	public static final char FIELD_DELIMITER_CHAR = COMMA_CHAR;
