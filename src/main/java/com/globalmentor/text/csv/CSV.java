@@ -19,7 +19,7 @@ package com.globalmentor.text.csv;
 import java.io.*;
 
 import com.globalmentor.java.Characters;
-import com.globalmentor.net.ContentType;
+import com.globalmentor.net.MediaType;
 
 import static com.globalmentor.java.Characters.*;
 import static java.nio.charset.StandardCharsets.*;
@@ -35,7 +35,7 @@ public class CSV {
 	public static final String CSV_SUBTYPE = "csv";
 
 	/** The media type for CSV: <code>text/csv</code>. */
-	public static final ContentType CSV_MEDIA_TYPE = ContentType.of(ContentType.TEXT_PRIMARY_TYPE, CSV_SUBTYPE);
+	public static final MediaType CSV_MEDIA_TYPE = MediaType.of(MediaType.TEXT_PRIMARY_TYPE, CSV_SUBTYPE);
 
 	/** The name extension for Comma Separated Value (CSV) files. */
 	public static final String CSV_FILENAME_EXTENSION = "csv";
